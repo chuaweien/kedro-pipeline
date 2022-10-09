@@ -1,0 +1,552 @@
+2022-06-27 14:43:53,552 - kedro.pipeline.node - ERROR - Node `report_accuracy: report_accuracy([y_pred,y_test]) -> [accuracy]` failed with error: 
+index 1 is out of bounds for axis 0 with size 1
+2022-06-28 10:08:47,173 - uvicorn.error - ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 372, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/middleware/message_logger.py", line 82, in __call__
+    raise exc from None
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/middleware/message_logger.py", line 78, in __call__
+    await self.app(scope, inner_receive, inner_send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/fastapi/routing.py", line 224, in app
+    response_data = await serialize_response(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/fastapi/routing.py", line 127, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: <unprintable ValidationError object>
+2022-06-28 13:47:43,008 - uvicorn.error - ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 372, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/middleware/message_logger.py", line 82, in __call__
+    raise exc from None
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/middleware/message_logger.py", line 78, in __call__
+    await self.app(scope, inner_receive, inner_send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/fastapi/routing.py", line 224, in app
+    response_data = await serialize_response(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/fastapi/routing.py", line 127, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: <unprintable ValidationError object>
+2022-06-28 16:19:51,462 - uvicorn.error - ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 372, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/middleware/message_logger.py", line 82, in __call__
+    raise exc from None
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/middleware/message_logger.py", line 78, in __call__
+    await self.app(scope, inner_receive, inner_send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/fastapi/routing.py", line 224, in app
+    response_data = await serialize_response(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/fastapi/routing.py", line 127, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: <unprintable ValidationError object>
+2022-06-28 16:46:28,095 - strawberry.execution - ERROR - (sqlite3.OperationalError) no such table: runs
+[SQL: SELECT runs.id AS runs_id, runs.blob AS runs_blob 
+FROM runs 
+WHERE runs.id > ? ORDER BY runs.id DESC]
+[parameters: ('2022-06-28T08.32.37.164Z',)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+Traceback (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: runs
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/subscriptions/protocols/graphql_ws/handlers.py", line 148, in handle_async_results
+    async for result in result_source:
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/graphql/execution/map_async_iterator.py", line 59, in __anext__
+    raise error
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/api/graphql.py", line 304, in runs_added
+    new_runs = data_access_manager.runs.get_new_runs()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/data_access/repositories/runs.py", line 23, in func
+    return method(self, *method_args, **method_kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/data_access/repositories/runs.py", line 86, in get_new_runs
+    return query.order_by(RunModel.id.desc()).all()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2768, in all
+    return self._iter().all()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2903, in _iter
+    result = self.session.execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: runs
+[SQL: SELECT runs.id AS runs_id, runs.blob AS runs_blob 
+FROM runs 
+WHERE runs.id > ? ORDER BY runs.id DESC]
+[parameters: ('2022-06-28T08.32.37.164Z',)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+Stack (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/bin/kedro", line 10, in <module>
+    sys.exit(main())
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro/framework/cli/cli.py", line 217, in main
+    cli_collection()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro/framework/cli/cli.py", line 145, in main
+    super().main(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/launchers/cli.py", line 131, in viz
+    run_server(**run_server_kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/server.py", line 98, in run_server
+    uvicorn.run(app, host=host, port=port, log_config=None)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/main.py", line 463, in run
+    server.run()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/server.py", line 60, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/subscriptions/protocols/graphql_ws/handlers.py", line 171, in handle_async_results
+    self.schema.process_errors([error])
+2022-06-28 16:48:09,244 - strawberry.execution - ERROR - (sqlite3.OperationalError) no such table: runs
+[SQL: SELECT runs.id AS runs_id, runs.blob AS runs_blob 
+FROM runs 
+WHERE runs.id > ? ORDER BY runs.id DESC]
+[parameters: ('2022-06-28T08.44.54.655Z',)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+Traceback (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: runs
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/subscriptions/protocols/graphql_ws/handlers.py", line 148, in handle_async_results
+    async for result in result_source:
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/graphql/execution/map_async_iterator.py", line 59, in __anext__
+    raise error
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/api/graphql.py", line 304, in runs_added
+    new_runs = data_access_manager.runs.get_new_runs()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/data_access/repositories/runs.py", line 23, in func
+    return method(self, *method_args, **method_kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/data_access/repositories/runs.py", line 86, in get_new_runs
+    return query.order_by(RunModel.id.desc()).all()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2768, in all
+    return self._iter().all()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2903, in _iter
+    result = self.session.execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: runs
+[SQL: SELECT runs.id AS runs_id, runs.blob AS runs_blob 
+FROM runs 
+WHERE runs.id > ? ORDER BY runs.id DESC]
+[parameters: ('2022-06-28T08.44.54.655Z',)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+Stack (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/bin/kedro", line 10, in <module>
+    sys.exit(main())
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro/framework/cli/cli.py", line 217, in main
+    cli_collection()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro/framework/cli/cli.py", line 145, in main
+    super().main(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/launchers/cli.py", line 131, in viz
+    run_server(**run_server_kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/server.py", line 98, in run_server
+    uvicorn.run(app, host=host, port=port, log_config=None)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/main.py", line 463, in run
+    server.run()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/server.py", line 60, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/subscriptions/protocols/graphql_ws/handlers.py", line 171, in handle_async_results
+    self.schema.process_errors([error])
+2022-06-28 16:49:15,706 - strawberry.execution - ERROR - (sqlite3.OperationalError) no such table: runs
+[SQL: SELECT runs.id AS runs_id, runs.blob AS runs_blob 
+FROM runs ORDER BY runs.id DESC]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+
+GraphQL request:2:3
+1 | query getRunsList {
+2 |   runsList {
+  |   ^
+3 |     bookmark
+Traceback (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: runs
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/graphql/execution/execute.py", line 528, in await_result
+    return_type, field_nodes, info, path, await result
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/extensions/directives.py", line 19, in resolve
+    result = await await_maybe(_next(root, info, *args, **kwargs))
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/schema/schema_converter.py", line 459, in _resolver
+    return _get_result(_source, strawberry_info, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/schema/schema_converter.py", line 451, in _get_result
+    return field.get_result(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/field.py", line 293, in get_result
+    return self.base_resolver(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/types/fields/resolver.py", line 44, in __call__
+    return self.wrapped_func(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/api/graphql.py", line 330, in runs_list
+    return get_all_runs()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/api/graphql.py", line 144, in get_all_runs
+    all_runs = data_access_manager.runs.get_all_runs()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/data_access/repositories/runs.py", line 23, in func
+    return method(self, *method_args, **method_kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/data_access/repositories/runs.py", line 48, in get_all_runs
+    self._db_session_class()  # type: ignore
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2768, in all
+    return self._iter().all()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2903, in _iter
+    result = self.session.execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: runs
+[SQL: SELECT runs.id AS runs_id, runs.blob AS runs_blob 
+FROM runs ORDER BY runs.id DESC]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+Stack (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/bin/kedro", line 10, in <module>
+    sys.exit(main())
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro/framework/cli/cli.py", line 217, in main
+    cli_collection()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro/framework/cli/cli.py", line 145, in main
+    super().main(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/launchers/cli.py", line 131, in viz
+    run_server(**run_server_kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/server.py", line 98, in run_server
+    uvicorn.run(app, host=host, port=port, log_config=None)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/main.py", line 463, in run
+    server.run()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/server.py", line 60, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/schema/schema.py", line 193, in execute
+    self.process_errors(result.errors, execution_context=execution_context)
+2022-06-28 16:49:15,875 - strawberry.execution - ERROR - (sqlite3.OperationalError) no such table: runs
+[SQL: SELECT runs.id AS runs_id, runs.blob AS runs_blob 
+FROM runs ORDER BY runs.id DESC]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+
+GraphQL request:2:3
+1 | query getRunsList {
+2 |   runsList {
+  |   ^
+3 |     bookmark
+Traceback (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: runs
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/graphql/execution/execute.py", line 528, in await_result
+    return_type, field_nodes, info, path, await result
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/extensions/directives.py", line 19, in resolve
+    result = await await_maybe(_next(root, info, *args, **kwargs))
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/schema/schema_converter.py", line 459, in _resolver
+    return _get_result(_source, strawberry_info, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/schema/schema_converter.py", line 451, in _get_result
+    return field.get_result(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/field.py", line 293, in get_result
+    return self.base_resolver(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/types/fields/resolver.py", line 44, in __call__
+    return self.wrapped_func(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/api/graphql.py", line 330, in runs_list
+    return get_all_runs()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/api/graphql.py", line 144, in get_all_runs
+    all_runs = data_access_manager.runs.get_all_runs()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/data_access/repositories/runs.py", line 23, in func
+    return method(self, *method_args, **method_kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/data_access/repositories/runs.py", line 48, in get_all_runs
+    self._db_session_class()  # type: ignore
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2768, in all
+    return self._iter().all()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2903, in _iter
+    result = self.session.execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: runs
+[SQL: SELECT runs.id AS runs_id, runs.blob AS runs_blob 
+FROM runs ORDER BY runs.id DESC]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+Stack (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/bin/kedro", line 10, in <module>
+    sys.exit(main())
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro/framework/cli/cli.py", line 217, in main
+    cli_collection()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro/framework/cli/cli.py", line 145, in main
+    super().main(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/launchers/cli.py", line 131, in viz
+    run_server(**run_server_kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/server.py", line 98, in run_server
+    uvicorn.run(app, host=host, port=port, log_config=None)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/main.py", line 463, in run
+    server.run()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/server.py", line 60, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/schema/schema.py", line 193, in execute
+    self.process_errors(result.errors, execution_context=execution_context)
+2022-06-28 16:49:19,812 - strawberry.execution - ERROR - (sqlite3.OperationalError) no such table: runs
+[SQL: SELECT runs.id AS runs_id, runs.blob AS runs_blob 
+FROM runs ORDER BY runs.id DESC]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+
+GraphQL request:2:3
+1 | query getRunsList {
+2 |   runsList {
+  |   ^
+3 |     bookmark
+Traceback (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: runs
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/graphql/execution/execute.py", line 528, in await_result
+    return_type, field_nodes, info, path, await result
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/extensions/directives.py", line 19, in resolve
+    result = await await_maybe(_next(root, info, *args, **kwargs))
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/schema/schema_converter.py", line 459, in _resolver
+    return _get_result(_source, strawberry_info, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/schema/schema_converter.py", line 451, in _get_result
+    return field.get_result(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/field.py", line 293, in get_result
+    return self.base_resolver(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/types/fields/resolver.py", line 44, in __call__
+    return self.wrapped_func(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/api/graphql.py", line 330, in runs_list
+    return get_all_runs()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/api/graphql.py", line 144, in get_all_runs
+    all_runs = data_access_manager.runs.get_all_runs()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/data_access/repositories/runs.py", line 23, in func
+    return method(self, *method_args, **method_kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/data_access/repositories/runs.py", line 48, in get_all_runs
+    self._db_session_class()  # type: ignore
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2768, in all
+    return self._iter().all()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2903, in _iter
+    result = self.session.execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: runs
+[SQL: SELECT runs.id AS runs_id, runs.blob AS runs_blob 
+FROM runs ORDER BY runs.id DESC]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+Stack (most recent call last):
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/bin/kedro", line 10, in <module>
+    sys.exit(main())
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro/framework/cli/cli.py", line 217, in main
+    cli_collection()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro/framework/cli/cli.py", line 145, in main
+    super().main(
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/launchers/cli.py", line 131, in viz
+    run_server(**run_server_kwargs)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/kedro_viz/server.py", line 98, in run_server
+    uvicorn.run(app, host=host, port=port, log_config=None)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/main.py", line 463, in run
+    server.run()
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/uvicorn/server.py", line 60, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/weien/opt/anaconda3/envs/kedro-env/lib/python3.8/site-packages/strawberry/schema/schema.py", line 193, in execute
+    self.process_errors(result.errors, execution_context=execution_context)

@@ -1,0 +1,412 @@
+2022-06-20 11:14:51,998 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-20 11:14:52,063 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-20 14:42:41,135 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-20 14:42:41,178 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-20 15:17:39,359 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-20 15:17:40,235 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-20 15:17:40,321 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 14:05:32,136 - traitlets - INFO - Installed kernelspec kedro_pandas_iris in /Users/weien/Library/Jupyter/kernels/kedro_pandas_iris
+2022-06-22 15:53:30,342 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-22 15:53:30,410 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 15:57:35,964 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-22 15:57:36,025 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 16:45:16,497 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-22 16:45:16,595 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 16:45:35,476 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-22 16:45:35,521 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 16:47:14,342 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-22 16:47:14,418 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 17:07:11,975 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-22 17:07:12,049 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 17:10:46,171 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-22 17:10:46,240 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 17:13:39,040 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-22 17:13:39,113 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 09:55:48,528 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 09:55:48,598 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 09:56:08,157 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 09:56:08,216 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 09:58:26,393 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 09:58:26,462 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 10:00:18,622 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 10:00:18,682 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 10:12:23,246 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 10:12:23,324 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 10:13:45,982 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 10:13:46,046 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 10:19:21,609 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 10:19:21,682 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 10:20:06,988 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 10:20:07,057 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 10:23:48,550 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 10:23:48,616 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 10:24:20,269 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 10:24:20,341 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 10:24:43,334 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 10:24:43,405 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 11:09:58,592 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 11:09:58,650 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 11:10:14,858 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 11:10:14,918 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 11:27:37,264 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 11:27:37,330 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 11:27:46,454 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 11:27:46,498 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 11:28:43,720 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 11:28:43,793 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 11:32:53,913 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 11:32:53,973 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 11:33:08,518 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 11:33:08,589 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 11:33:50,688 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 11:33:50,746 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 11:34:24,803 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 11:34:24,865 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 11:39:58,679 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 11:39:58,734 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 13:49:31,833 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 13:49:31,904 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 13:50:50,502 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 13:50:50,566 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 13:51:47,930 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 13:51:47,972 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 14:07:09,993 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 14:07:10,073 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 14:07:26,505 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 14:07:26,572 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 14:08:25,212 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 14:08:25,278 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 14:09:13,465 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 14:09:13,513 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 14:09:42,579 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 14:09:42,660 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-24 14:09:53,298 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-24 14:09:53,341 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-25 14:09:35,040 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-25 14:09:35,108 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-25 14:09:49,445 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-25 14:09:49,583 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-25 14:09:49,641 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-25 19:36:25,040 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-25 19:37:12,524 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-25 19:52:25,426 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-25 19:52:39,651 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-25 19:52:56,547 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-25 19:53:55,733 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-25 19:54:30,762 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-25 21:26:46,302 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-25 21:27:39,170 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-25 22:18:08,567 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 16:06:31,316 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 16:06:55,718 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 16:07:25,557 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 16:07:57,175 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 16:10:47,036 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 16:22:49,935 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 16:23:05,577 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 16:32:37,844 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 16:32:41,060 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-26 16:32:41,159 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-26 16:34:04,609 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 16:34:07,856 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-26 16:34:07,925 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-26 16:39:15,987 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 17:17:50,933 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 17:17:54,254 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-26 17:17:54,465 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-26 17:17:54,530 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-26 17:36:48,753 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 17:37:30,641 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 17:40:12,204 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 18:00:23,906 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 18:00:27,308 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-26 18:00:27,437 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-26 18:06:14,213 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 19:52:04,269 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-26 19:52:07,260 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-26 19:52:07,398 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-26 19:52:07,467 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 10:33:04,724 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 11:00:01,721 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:07:03,076 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:08:33,929 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:08:38,108 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:08:38,168 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:08:38,215 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:10:00,667 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:10:04,911 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:10:04,953 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:10:04,981 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:11:11,699 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:11:15,880 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:11:15,915 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:11:15,957 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:11:39,650 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:11:43,420 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:11:43,461 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:11:43,496 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:12:03,037 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:12:06,978 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:12:07,066 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:12:07,106 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:16:09,643 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:16:13,720 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:16:13,763 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:16:13,794 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:16:32,501 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:16:36,683 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:16:36,731 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:16:36,760 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:23:25,400 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:23:30,723 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:23:30,773 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:23:30,827 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:23:41,465 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:23:45,466 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:23:45,492 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:23:45,534 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:24:28,497 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:24:32,503 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:24:32,555 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:24:32,588 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:25:09,579 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:25:13,742 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:25:13,792 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:25:13,824 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:25:53,974 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:25:57,836 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:25:57,861 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:25:57,908 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:29:08,115 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:29:11,997 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:29:12,023 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:29:12,061 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:30:32,914 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:30:36,728 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:30:36,761 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:30:36,806 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:33:00,674 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:33:05,197 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:33:05,227 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:33:05,271 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:37:07,697 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:37:12,104 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:37:12,146 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:37:12,207 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:37:27,810 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:37:38,441 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:37:42,591 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:37:42,646 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:37:42,688 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:38:20,724 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:38:25,086 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:38:25,149 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:38:25,208 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:39:09,034 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:39:13,265 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:39:13,313 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:39:13,350 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:40:07,082 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:40:12,477 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:40:12,505 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:40:12,539 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:42:48,436 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:42:52,579 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:42:52,611 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:42:52,705 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:43:47,900 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:43:51,846 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:43:51,899 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:43:51,938 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:44:35,484 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:44:39,794 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:44:39,844 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:44:39,892 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:44:52,439 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:44:56,489 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:44:56,516 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:44:56,567 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:45:23,615 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:45:28,342 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:45:28,366 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:45:28,403 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:46:15,973 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:46:21,236 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:46:21,284 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:46:21,334 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:46:34,620 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:46:38,720 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:46:38,758 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:46:38,819 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:56:21,992 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:56:26,538 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:56:26,572 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:56:26,602 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-27 14:57:03,880 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-27 14:57:08,097 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-27 14:57:08,164 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-27 14:57:08,215 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 09:44:33,988 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 09:44:38,241 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-28 09:44:39,199 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 09:44:39,229 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 09:44:39,258 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 11:00:01,919 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 11:00:06,154 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 11:00:06,199 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 11:00:06,228 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 11:00:39,769 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 11:00:44,117 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 11:00:44,229 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 11:00:44,260 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 11:01:04,291 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 11:01:19,467 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 11:01:23,121 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 11:01:23,157 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 11:01:23,184 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 11:02:15,321 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 11:02:19,948 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 11:02:19,980 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 11:02:20,008 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 11:02:45,782 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 11:04:19,746 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 11:04:24,800 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 11:04:24,833 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 11:04:24,860 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 11:06:19,932 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 11:06:23,987 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 11:06:24,021 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 11:06:24,052 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 11:08:14,925 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 11:08:19,216 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 11:08:19,252 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 11:08:19,287 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 11:11:08,070 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 11:11:12,118 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 11:11:12,160 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 11:11:12,188 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 11:11:35,180 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 11:11:39,379 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 11:11:39,431 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 11:11:39,496 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 11:22:51,858 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 11:22:56,050 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 11:22:56,092 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 11:22:56,120 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 13:26:26,515 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 13:26:31,641 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 13:26:31,673 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 13:26:31,701 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 13:29:28,003 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 13:29:31,965 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 13:29:31,993 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 13:29:32,018 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 13:30:57,695 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 13:31:02,270 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-28 13:31:02,486 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 13:31:02,523 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 13:31:02,557 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 15:46:43,187 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 15:46:47,596 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-28 15:46:47,632 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 15:46:47,660 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:18:28,275 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:18:32,554 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:18:32,595 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:18:32,624 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:18:44,551 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:18:50,390 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-28 16:18:50,968 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:18:51,060 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:18:51,106 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:19:30,780 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:19:34,768 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:19:34,804 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:19:34,833 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:20:55,103 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:20:59,807 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:20:59,835 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:20:59,866 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:21:14,564 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:21:20,509 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:21:20,540 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:21:20,569 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:26:00,552 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:26:05,057 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:26:05,099 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:26:05,137 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:26:19,829 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:26:23,838 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:26:23,869 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:26:23,906 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:28:41,223 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:28:45,462 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:28:45,489 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:28:45,519 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:29:04,661 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:29:08,688 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:29:08,716 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:29:08,745 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:32:32,522 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:32:37,165 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:32:37,211 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:32:37,244 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:33:38,138 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:33:42,040 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-28 16:33:42,171 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:33:42,206 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:33:42,236 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:44:37,354 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:44:42,610 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:44:42,649 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:44:42,677 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:44:51,043 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:44:54,656 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:44:54,685 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:44:54,710 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:46:37,810 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:46:41,901 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-28 16:46:43,044 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:46:43,081 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:46:43,119 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:48:15,032 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:48:19,308 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:48:19,337 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:48:19,364 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:48:45,364 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:48:49,226 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:48:49,254 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:48:49,281 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:49:49,513 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:49:54,538 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-28 16:49:54,653 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:49:54,680 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:49:54,710 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:50:33,559 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:50:37,820 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:50:37,851 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:50:37,882 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:50:46,340 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:50:50,734 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:50:50,763 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:50:50,794 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:52:51,203 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:52:55,818 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:52:55,859 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:52:55,896 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 16:53:10,833 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 16:53:15,615 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 16:53:15,651 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 16:53:15,680 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 17:24:05,049 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 17:24:09,577 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 17:24:09,609 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 17:24:09,641 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-28 17:24:46,735 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-28 17:24:50,807 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-28 17:24:50,838 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-28 17:24:50,869 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-29 09:45:32,681 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-06-29 09:45:37,018 - kedro.framework.session.store - INFO - `read()` not implemented for `SQLiteStore`. Assuming empty store.
+2022-06-29 09:45:37,054 - kedro.framework.hooks.manager - INFO - Registered hooks from 1 installed plugin(s): kedro-mlflow-0.11.0
+2022-06-29 09:45:37,092 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris

@@ -1,0 +1,12 @@
+2022-06-22 14:06:13,901 - kedro.extras.extensions.ipython - INFO - Updated path to Kedro project: /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 14:06:14,128 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-22 14:06:14,199 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 14:09:20,246 - kedro.extras.extensions.ipython - INFO - Updated path to Kedro project: /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 14:09:20,466 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-22 14:09:20,520 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 14:10:53,154 - kedro.extras.extensions.ipython - INFO - Updated path to Kedro project: /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 14:10:53,375 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-22 14:10:53,428 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 14:34:02,941 - kedro.extras.extensions.ipython - INFO - Updated path to Kedro project: /Users/weien/Desktop/kedro-testing/pandas-iris
+2022-06-22 14:34:03,170 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-22 14:34:03,237 - kedro.framework.session.session - WARNING - Unable to git describe /Users/weien/Desktop/kedro-testing/pandas-iris

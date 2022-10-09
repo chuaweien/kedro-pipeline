@@ -1,0 +1,78 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: kedro-pipeline-
+  annotations: {pipelines.kubeflow.org/kfp_sdk_version: 1.8.12, pipelines.kubeflow.org/pipeline_compilation_time: '2022-06-26T18:05:35.868442',
+    pipelines.kubeflow.org/pipeline_spec: '{"description": "Kubeflow pipeline for
+      Kedro project", "name": "Kedro pipeline"}'}
+  labels: {pipelines.kubeflow.org/kfp_sdk_version: 1.8.12}
+spec:
+  entrypoint: kedro-pipeline
+  templates:
+  - name: encoding
+    container:
+      args: [run, --node, encoding]
+      command: [kedro]
+      image: weienen3008/pandas-iris:0.1.1
+    metadata:
+      labels:
+        pipelines.kubeflow.org/kfp_sdk_version: 1.8.12
+        pipelines.kubeflow.org/pipeline-sdk-type: kfp
+        pipelines.kubeflow.org/enable_caching: "true"
+  - name: kedro-pipeline
+    dag:
+      tasks:
+      - name: encoding
+        template: encoding
+        dependencies: [scatter-plot]
+      - name: make-predictions
+        template: make-predictions
+        dependencies: [split]
+      - name: report-accuracy
+        template: report-accuracy
+        dependencies: [make-predictions, split]
+      - {name: scatter-plot, template: scatter-plot}
+      - {name: split, template: split}
+  - name: make-predictions
+    container:
+      args: [run, --node, make_predictions]
+      command: [kedro]
+      image: weienen3008/pandas-iris:0.1.1
+    metadata:
+      labels:
+        pipelines.kubeflow.org/kfp_sdk_version: 1.8.12
+        pipelines.kubeflow.org/pipeline-sdk-type: kfp
+        pipelines.kubeflow.org/enable_caching: "true"
+  - name: report-accuracy
+    container:
+      args: [run, --node, report_accuracy]
+      command: [kedro]
+      image: weienen3008/pandas-iris:0.1.1
+    metadata:
+      labels:
+        pipelines.kubeflow.org/kfp_sdk_version: 1.8.12
+        pipelines.kubeflow.org/pipeline-sdk-type: kfp
+        pipelines.kubeflow.org/enable_caching: "true"
+  - name: scatter-plot
+    container:
+      args: [run, --node, scatter_plot]
+      command: [kedro]
+      image: weienen3008/pandas-iris:0.1.1
+    metadata:
+      labels:
+        pipelines.kubeflow.org/kfp_sdk_version: 1.8.12
+        pipelines.kubeflow.org/pipeline-sdk-type: kfp
+        pipelines.kubeflow.org/enable_caching: "true"
+  - name: split
+    container:
+      args: [run, --node, split]
+      command: [kedro]
+      image: weienen3008/pandas-iris:0.1.1
+    metadata:
+      labels:
+        pipelines.kubeflow.org/kfp_sdk_version: 1.8.12
+        pipelines.kubeflow.org/pipeline-sdk-type: kfp
+        pipelines.kubeflow.org/enable_caching: "true"
+  arguments:
+    parameters: []
+  serviceAccountName: pipeline-runner

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/weien/Desktop/kedro-testing/pandas-iris/mlruns/1/a46b7f42916449319fa22bdd2a1e2720/artifacts
+end_time: 1656405159804
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: a46b7f42916449319fa22bdd2a1e2720
+run_uuid: a46b7f42916449319fa22bdd2a1e2720
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1656405158499
+status: 3
+tags: []
+user_id: weien

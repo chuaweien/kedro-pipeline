@@ -1,0 +1,5 @@
+# These are all text datasets, and we have all the data for them
+my_datasets:
+  - name: hello_world
+  - name: good_night_moon
+  - name: twinkle_my_stars

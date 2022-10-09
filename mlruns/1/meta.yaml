@@ -1,0 +1,4 @@
+artifact_location: file:///Users/weien/Desktop/kedro-testing/pandas-iris/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: pandas_iris
