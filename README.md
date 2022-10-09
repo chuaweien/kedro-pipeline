@@ -57,6 +57,49 @@ After this, if you'd like to update your project requirements, please update `sr
 
 [Further information about project dependencies](https://kedro.readthedocs.io/en/stable/kedro_project_setup/dependencies.html#project-specific-dependencies)
 
+## Kedro with KubeFlow Pipeline
+### Package Kedro pipelines into Docker
+First, you will need to install `kedro-docker` to help you generate the `Dockerfile` for your Kedro Pipeline.
+```
+pip install kedro-docker
+```
+After installing the plugin, navigate to your project root folder and run the following command to generate `Dockerfile`, `.dockerignore` and `.dive-ci` files.
+```
+kedro docker init
+```
+Then, build the project image using the `Dockerfile` that was generated using the below command.
+```
+kedro docker build
+```
+Once the project image has been built, you can run the project image with the following command or you can push the docker image into your Docker Registry for for KubeFlow Pipeline.
+```
+kedro docker run
+```
+
+### Generate Workflow Specs
+Using the workflow specs `build_kubeflow_pipeline.py` referenced from Kedro Documentation, it will generate `Pandas Iris.yaml` file to upload to KubeFlow Pipeline. The python script can be run with the command below at the project root directory.
+```
+python build_kubeflow_pipeline.py
+```
+
+## Kedro with MLFlow
+> Note: MLFlow plugin is compatible with `kedro>=0.16.0`
+
+To use MLFlow with Kedro, you will need to install the plugin.
+```
+pip install kedro-mlflow
+```
+After installing, initiate the plugin by running:
+```
+kedro mlflow init
+```
+The initiation is successful if `mlflow.yml` file is generated in `conf/local` folder with the following message:
+```
+'conf/local/mlflow.yml' successfully updated.
+```
+Once you have initiate the plugin, the first time you run a `kedro run` a new `mlruns` folder will be created with all the experiment trackings and artifacts if you left the MLFlow tracking uri as default (i.e. local server).
+
+You can specify the tracking uri to your own MLFlow server in the `mlflow.yml`.
 ## How to work with Kedro and notebooks
 
 > Note: Using `kedro jupyter` or `kedro ipython` to run your notebook provides these variables in scope: `catalog`, `context`, `pipelines` and `session`.
